@@ -1,0 +1,54 @@
+.main {
+  background-repeat: no-repeat;
+  color: white;
+  background-color: white;
+  padding-top: 128px;
+  padding-bottom: 270px;
+  background: rgb(7, 41, 62);
+  position: relative;
+}
+.main__conviction {
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid rgb(39, 76, 99);
+  border-radius: 24px;
+  background: rgb(19, 54, 75);
+  padding: 8px 16px;
+}
+.main__title {
+  font-size: 80px;
+  font-weight: 400;
+  font-style: italic;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-family: "Joyride W05 STD";
+}
+
+.main__title span {
+  color: rgb(227, 11, 73);
+}
+.main__p {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+.main__btn {
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 42px;
+  background: rgb(227, 11, 73);
+  padding: 12px 24px;
+  color: white;
+}
+.main__wave {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 4; 
+}
+.sportmans {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 2;
+}
