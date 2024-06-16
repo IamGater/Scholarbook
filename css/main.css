@@ -7,6 +7,11 @@
   background: rgb(7, 41, 62);
   position: relative;
 }
+
+.main__text {
+  z-index: 6;
+}
+
 .main__conviction {
   font-size: 20px;
   font-weight: 500;
@@ -44,7 +49,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  z-index: 4; 
+  z-index: 4;
 }
 .sportmans {
   position: absolute;
