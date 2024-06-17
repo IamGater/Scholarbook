@@ -1,0 +1,33 @@
+.countries {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.countries__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.countries__title {
+  font-family: "Joyride W05 STD";
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.countries__title span {
+  color: rgb(227, 11, 73);
+}
+
+.countries__text {
+  color: rgb(7, 41, 62);
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 64px;
+}
+
+.countries__img{
+  max-width: 1136px;
+}

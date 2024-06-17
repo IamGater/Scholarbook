@@ -1,0 +1,39 @@
+.recruit {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.recruit__container {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  border-radius: 24px;
+  background: rgb(7, 41, 62);
+  padding: 48px;
+  gap: 24px;
+}
+
+.recruit__title {
+  font-family: "Joyride W05 STD";
+  font-size: 40px;
+  font-weight: 400;
+  color: white;
+}
+.recruit__text {
+  font-family: "Joyride W05 STD";
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  max-width: 850px;
+}
+.recruit__btn {
+  font-family: "Joyride W05 STD";
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  border-radius: 42px;
+  background: rgb(227, 11, 73);
+  padding: 12px 24px;
+}

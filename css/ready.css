@@ -1,0 +1,24 @@
+.ready {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.ready__container {
+  text-align: center;
+}
+.ready__title {
+  font-family: "Joyride W05 STD";
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 48px;
+}
+.ready__title span {
+  color: rgb(227, 11, 73);
+}
+.ready__a {
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 42px;
+  background: rgb(227, 11, 73);
+  padding: 12px 24px;
+}
