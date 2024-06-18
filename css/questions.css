@@ -1,0 +1,57 @@
+.questions {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.questions__title {
+  font-family: "Joyride W05 STD";
+  color: rgb(7, 41, 62);
+  font-size: 48px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.questions__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.acordeon__item {
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 24px;
+  background-color: white;
+  padding: 24px;
+  width: 100%;
+}
+
+.acordeon__wrapper {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.acordeon__title {
+  font-family: "Joyride W05 STD";
+  color: rgb(7, 41, 62);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.acordeon__text {
+  opacity: 0;
+  visibility: hidden;
+  display: none;
+  color: rgb(7, 41, 62);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Montserrat";
+  margin-top: 16px;
+}
+
+.acordeon__text-visible {
+  opacity: 1;
+  visibility: visible;
+  display: block;
+}
