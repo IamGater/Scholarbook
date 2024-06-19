@@ -33,8 +33,8 @@
       </div>
     </header>
     <main class="main">
-      <img class="sportmans" src="./img/main.png" alt="" />
       <div class="container">
+        <img class="sportmans" src="./img/main.png" alt="" />
         <div class="main__text">
           <span class="main__conviction"
             >The only international recruiting service you’ll ever need</span
@@ -49,8 +49,8 @@
           </p>
           <button class="main__btn btn-reset">Start recruiting now</button>
         </div>
+        <img class="main__wave" src="./img/wave.svg" alt="" />
       </div>
-      <img class="main__wave" src="./img/wave.svg" alt="" />
     </main>
     <section class="premier">
       <div class="container">
@@ -304,5 +304,56 @@
         </div>
       </div>
     </section>
+    <div class="modal">
+      <div class="modal__overlay">
+        <div class="modal__dialog">
+          <div class="modal__header">
+            <h2 class="modal__title">Contact me</h2>
+            <a href="" class="modal__close">
+              <img
+                src="./img/modal-close.svg"
+                alt=""
+                class="modal__close-img"
+              />
+            </a>
+          </div>
+          <form action="" class="modal__form">
+            <div class="input__wrapper">
+              <h3 class="input__title">Name</h3>
+              <input
+                type="text"
+                class="modal__input"
+                placeholder="Your full name"
+              />
+            </div>
+            <div class="input__wrapper">
+              <h3 class="input__title">University</h3>
+              <input
+                type="text"
+                class="modal__input"
+                placeholder="Your university"
+              />
+            </div>
+            <div class="input__wrapper">
+              <h3 class="input__title">Email</h3>
+              <input
+                type="text"
+                class="modal__input"
+                placeholder="Your email"
+              />
+            </div>
+            <div class="input__wrapper">
+              <h3 class="input__title">Phone number</h3>
+              <input
+                type="text"
+                class="modal__input"
+                placeholder="Your phone number"
+              />
+            </div>
+            <button class="modal__btn btn-reset">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

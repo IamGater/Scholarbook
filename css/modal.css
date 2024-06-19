@@ -1,0 +1,80 @@
+.modal__overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 100;
+  overflow-y: auto;
+  visibility: hidden;
+  opacity: 0;
+}
+.modal__overlay--visible {
+  visibility: visible;
+  opacity: 1;
+}
+.modal__dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  padding: 24px 32px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+  z-index: 101;
+  width: 100%;
+  max-width: 464px;
+  height: 505px;
+  flex-shrink: 0;
+  transform: translate(-50%, -50%);
+  visibility: hidden;
+  opacity: 0;
+}
+.modal__dialog--visible {
+  visibility: visible;
+  opacity: 1;
+}
+.modal__form {
+  display: flex;
+  flex-direction: column;
+}
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.modal__title {
+  color: rgb(7, 41, 62);
+  font-family: "Joyride W05 STD";
+  font-size: 32px;
+  font-weight: 400;
+}
+.input__title {
+  color: rgb(7, 41, 62);
+  font-size: 14px;
+  font-weight: 500;
+}
+.modal__input {
+  box-sizing: border-box;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 20px;
+  background: rgb(255, 255, 255);
+  padding: 12px 16px;
+}
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.modal__form {
+  gap: 16px;
+}
+.modal__btn {
+  font-family: "Joyride W05 STD";
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 42px;
+  background: rgb(227, 11, 73);
+  padding: 12px 24px;
+  color: white;
+}

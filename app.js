@@ -19,3 +19,14 @@ acordeonTitles.forEach.call(acordeonTitles, function (acordeonTitle) {
     }
   });
 });
+
+let modalButton = document.querySelector(".main__btn");
+let closeModalButton = document.querySelector(".modal__close");
+modalButton.addEventListener("click", openModal);
+
+function openModal() {
+  let modalOverlay = document.querySelector(".modal__overlay");
+  let modalDialog = document.querySelector(".modal__dialog");
+  modalOverlay.classList.toggle("modal__overlay--visible");
+  modalDialog.classList.toggle("modal__dialog--visible");
+}
