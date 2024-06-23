@@ -30,3 +30,14 @@ function openModal() {
   modalOverlay.classList.toggle("modal__overlay--visible");
   modalDialog.classList.toggle("modal__dialog--visible");
 }
+
+const swiper = new Swiper(".swiper", {
+  loop: true,
+  slidesPerView: 5,
+  spaceBetween: 16,
+
+  navigation: {
+    prevEl: ".navigation-prev",
+    nextEl: ".navigation-next",
+  },
+});

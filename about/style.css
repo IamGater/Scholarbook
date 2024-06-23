@@ -1,0 +1,72 @@
+.about__main-title {
+  font-size: 48px;
+  font-weight: 400;
+  max-width: 711px;
+  margin-bottom: 32px;
+}
+.main__mission {
+  color: rgb(227, 11, 73);
+  font-family: "Joyride W05 STD";
+  font-size: 24px;
+  font-weight: 400;
+}
+.about__sportsman {
+  right: 0;
+  top: 45px;
+}
+.story {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.story__title {
+  color: rgb(7, 41, 62);
+  font-family: "Joyride W05 STD";
+  font-size: 48px;
+  font-weight: 400;
+}
+.story__container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.navigation-prev,
+.navigation-next {
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 8px;
+  padding: 10px;
+  max-width: 40px;
+}
+.navigation-prev {
+  margin-right: 5px;
+}
+.swiper-wrapper {
+  align-items: stretch;
+}
+.swiper-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 324px;
+  height: auto;
+  padding: 32px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 24px;
+}
+.swiper__year {
+  color: rgb(227, 11, 73);
+  font-family: "Joyride W05 STD";
+  font-size: 24px;
+  font-weight: 400;
+}
+.swiper__title {
+  color: rgb(7, 41, 62);
+  font-family: "Joyride W05 STD";
+  font-size: 19px;
+  font-weight: 400;
+}
+.swiper__text1,
+.swiper__text2 {
+  color: rgb(7, 41, 62);
+  font-size: 16px;
+  font-weight: 500;
+}
