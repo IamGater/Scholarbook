@@ -70,3 +70,36 @@
   font-size: 16px;
   font-weight: 500;
 }
+.partners {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.partners__values {
+  color: rgb(227, 11, 73);
+  font-family: "Joyride W05 STD";
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.partners__title {
+  font-family: "Joyride W05 STD";
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.partners__title span {
+  color: rgb(227, 11, 73);
+}
+.partners__text1,
+.partners__text2 {
+  color: rgb(7, 41, 62);
+  font-size: 20px;
+  font-weight: 500;
+}
+.partners__text1 {
+  margin-bottom: 32px;
+}
+.partners__container {
+  text-align: center;
+}
